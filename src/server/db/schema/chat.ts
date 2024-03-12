@@ -1,6 +1,6 @@
 import { createId } from "@paralleldrive/cuid2";
 import { int, text } from "drizzle-orm/sqlite-core";
-import { createTable } from "./utils";
+import { createTable } from "../utils";
 import { relations, sql } from "drizzle-orm";
 import { messages } from "./message";
 

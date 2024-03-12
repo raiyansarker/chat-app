@@ -1,5 +1,5 @@
 import { index, int, text } from "drizzle-orm/sqlite-core";
-import { createTable } from "./utils";
+import { createTable } from "../utils";
 import { createId } from "@paralleldrive/cuid2";
 import { relations, sql } from "drizzle-orm";
 import { chats } from "./chat";
