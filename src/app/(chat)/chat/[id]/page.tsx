@@ -1,5 +1,7 @@
 import { PlusIcon, SendIcon, SmileIcon } from "lucide-react";
 
+export const runtime = "edge";
+
 export default function Page() {
   return (
     <div className="flex h-full w-full grow flex-col bg-zinc-100 shadow-inner">
